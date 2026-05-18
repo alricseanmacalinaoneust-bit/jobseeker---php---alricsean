@@ -1,5 +1,6 @@
 <?php
-require basePath('models/JobListings.php');
+require basePath('models/JobListing.php');
+use App\Models\JobListing;
 
 $error = null;
 $old = [];

@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Models;
+
 class JobListing {
     private array $data;
 
@@ -16,13 +18,13 @@ class JobListing {
 
     public function save(): bool {
         $config = require basePath('config/db.php');
-        $db = new Database($config);
+        $db = new \Database($config);
 
         // Only insert the fields that are present in the provided data
         $fields = array_values(array_intersect(self::$fields, array_keys($this->data)));
 
         if (count($fields) === 0) {
-            throw new Exception('No valid fields provided to save listing.');
+            throw new \Exception('No valid fields provided to save listing.');
         }
 
         $columns = implode(', ', $fields);
@@ -38,8 +40,8 @@ class JobListing {
 
         try {
             return $stmt->execute();
-        } catch (PDOException $e) {
-            throw new Exception("Failed to save job listing: " . $e->getMessage());
+        } catch (\PDOException $e) {
+            throw new \Exception("Failed to save job listing: " . $e->getMessage());
         }
     }
 }
