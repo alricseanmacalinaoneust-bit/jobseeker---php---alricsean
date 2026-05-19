@@ -155,7 +155,11 @@
 
         <section id="analysis" class="analysis">
             <h2>Game UI & Design Analysis</h2>
-            <p>As someone studying Web Systems Technology, I look beyond gameplay. In Wuthering Waves the UI feels minimal and modern—clean spacing, soft animations, and good readability. Genshin leans into artistic immersion with layered menus and ornate icons. These are two design philosophies: usability vs immersion.</p>
+            <p>As someone studying Web Systems Technology, I look beyond gameplay to how a title communicates with players. Different games teach different UI lessons: Wuthering Waves favors a minimal, modern HUD with clean spacing and soft animations that prioritize readability, while Genshin pursues artistic immersion with layered menus and ornate icons that reward exploration.</p>
+
+            <p>Competitive titles like League of Legends pack dense information into compact, glanceable panels for high-skill play. Mobile experiences such as Mobile Legends and Pokémon GO prioritize accessibility and simplicity—larger touch targets, streamlined flows, or location-driven interfaces that surface only the essentials. Strategy games such as Clash of Clans emphasize clear management screens and progression affordances.</p>
+
+            <p>Together these approaches form a spectrum from usability to immersion. Good UI chooses the right trade-offs for the player's goals, prioritizing clarity, feedback, and the moments that bring players back.</p>
         </section>
         
     </main>
@@ -163,7 +167,7 @@
     <footer class="footer">
         <div class="wrap">
             <div>© Pixel Grind — Alric Sean Macalinao</div>
-            <div class="small">Design system: Neon blue #00D4FF • Violet #7C3AED</div>
+            <div class="small">ITWS-03</div>
         </div>
     </footer>
     <button id="toTop" class="back-to-top" aria-label="Back to top">↑</button>

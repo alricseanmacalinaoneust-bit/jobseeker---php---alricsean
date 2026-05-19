@@ -56,7 +56,7 @@
         <p style="color:var(--muted)">When I keep writing, I get better at noticing patterns in game design, UI, and progression. That helps me compare games more fairly and explain them more clearly. So the goal is not just to rate games — it's to understand them, and to let other people see the game through my point of view.</p>
 
         <h2 style="margin-top:20px;color:#fff">Profile</h2>
-        <p style="color:var(--muted)">Hi, I’m <strong>Alric Sean Macalinao</strong>, a BSIT student specializing in Web Systems Technology. I play across genres—from MOBA to open-world RPGs—and I work in graphic design and editing. This blog combines gaming, design, and tech insights.</p>
+        <p style="color:var(--muted)">I’m <strong>Alric Sean Macalinao</strong>, a BSIT student specializing in Web Systems Technology. I play across genres—from MOBA to open-world RPGs—and I work in graphic design and editing. This blog combines gaming, design, and tech insights.</p>
 
         <p style="margin-top:18px;color:var(--muted)">— Alric</p>
       </section>
