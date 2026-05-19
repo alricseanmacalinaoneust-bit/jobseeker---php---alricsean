@@ -10,14 +10,16 @@
 <body>
     <header class="nav">
         <div class="wrap">
-            <a class="logo" href="/">Pixel Grind</a>
-            <nav class="categories">
-                <a href="#featured">Featured</a>
-                <a href="#categories">Genres</a>
-                <a href="#trending">Trending</a>
-                <a href="#analysis">UI Analysis</a>
-                <a href="#about">About</a>
-            </nav>
+            <a class="logo" href="/BLOG/blog.php">Pixel Grind</a>
+            <div class="nav-right">
+                <nav class="categories">
+                    <a href="#featured">Featured</a>
+                    <a href="#categories">Genres</a>
+                    <a href="#trending">Trending</a>
+                    <a href="#analysis">UI Analysis</a>
+                </nav>
+                <a class="author-btn" href="/BLOG/alric-review.php">My Profile</a>
+            </div>
         </div>
     </header>
 
@@ -48,7 +50,7 @@
                 </article>
 
                 <article class="card">
-                    <img src="/images/lol.jpg" alt="LoL vs ML ranked">
+                    <img src="/images/league.jpg" alt="LoL vs ML ranked">
                     <div class="meta"><span class="tag">Opinion</span></div>
                     <h3>Ranked Experience in League of Legends vs ML</h3>
                 </article>
@@ -57,12 +59,12 @@
 
         <section class="trending-section">
             <h2>Trending Games</h2>
-            <div class="trending-strip">
-                <div class="trend-card"><img src="/images/Screenshot (749).png" alt="Zenless"><span>Zenless Zone Zero</span></div>
+                <div class="trending-strip">
+                <div class="trend-card"><img src="/images/zenless.jpg" alt="Zenless"><span>Zenless Zone Zero</span></div>
                 <div class="trend-card"><img src="/images/wuwa.jpg" alt="Wuthering Waves"><span>Wuthering Waves</span></div>
-                <div class="trend-card"><img src="/images/Showcase.png" alt="Clash" onerror="this.src='/images/capstone.png'"><span>Clash of Clans</span></div>
-                <div class="trend-card"><img src="/images/Screenshot (752).png" alt="Pokemon GO"><span>Pokémon GO</span></div>
-                <div class="trend-card"><img src="/images/lol.jpg" alt="LoL"><span>League of Legends</span></div>
+                <div class="trend-card"><img src="/images/clash of clans.png" alt="Clash" onerror="this.src='/images/capstone.png'"><span>Clash of Clans</span></div>
+                <div class="trend-card"><img src="/images/pokemon go.png" alt="Pokemon GO"><span>Pokémon GO</span></div>
+                <div class="trend-card"><img src="/images/league.jpg" alt="LoL"><span>League of Legends</span></div>
             </div>
         </section>
 
@@ -71,22 +73,22 @@
             <div class="category-grid">
                 <div class="category-card"><img src="/images/ml.jpg" alt="MOBA"><h4>MOBA</h4><p>Fast-paced team battles and ranked play.</p></div>
                 <div class="category-card"><img src="/images/wuwa.jpg" alt="Gacha"><h4>Gacha</h4><p>Collectible, gacha-driven RPGs and pulls.</p></div>
-                <div class="category-card"><img src="/images/capstone.png" alt="RPG"><h4>RPG</h4><p>Open worlds, exploration, and story-led design.</p></div>
-                <div class="category-card"><img src="/images/Screenshot (750).png" alt="Strategy"><h4>Strategy</h4><p>Base-building and tactical play.</p></div>
-                <div class="category-card"><img src="/images/Screenshot (751).png" alt="Card"><h4>Card Games</h4><p>Deck builders and competitive card play.</p></div>
-                <div class="category-card"><img src="/images/loL.jpg" alt="Board" onerror="this.src='/images/capstone.png'"><h4>Board Games</h4><p>Digital board and casual multiplayer.</p></div>
-                <div class="category-card"><img src="/images/lol.jpg" alt="Mobile"><h4>Mobile Games</h4><p>Play anywhere: MLBB, Pokémon GO, Clash.</p></div>
-                <div class="category-card"><img src="/images/Showcase.png" alt="Competitive" onerror="this.src='/images/lol.jpg'"><h4>Competitive</h4><p>Ranked, esports, and tactical competition.</p></div>
+                <div class="category-card"><img src="/images/rpg.jpg" alt="RPG"><h4>RPG</h4><p>Open worlds, exploration, and story-led design.</p></div>
+                <div class="category-card"><img src="/images/strategy.jpg" alt="Strategy"><h4>Strategy</h4><p>Base-building and tactical play.</p></div>
+                <div class="category-card"><img src="/images/card.jpg" alt="Card"><h4>Card Games</h4><p>Deck builders and competitive card play.</p></div>
+                <div class="category-card"><img src="/images/baord.jpg" alt="Board" onerror="this.src='/images/capstone.png'"><h4>Board Games</h4><p>Digital board and casual multiplayer.</p></div>
+                <div class="category-card"><img src="/images/mobile.jpg" alt="Mobile"><h4>Mobile Games</h4><p>Play anywhere: MLBB, Pokémon GO, Clash.</p></div>
+                <div class="category-card"><img src="/images/compet.jpg" alt="Competitive" onerror="this.src='/images/league.jpg'"><h4>Competitive</h4><p>Ranked, esports, and tactical competition.</p></div>
             </div>
         </section>
 
         <section class="featured-posts">
             <h2>Featured Posts</h2>
-            <div class="featured-grid">
+                <div class="featured-grid">
                 <!-- reuse existing small cards -->
-                <div class="post-card"><img src="/images/wuwa.jpg" alt="Wuthering Waves"><h4>Why Wuthering Waves' Combat Feels So Satisfying</h4></div>
+                <div class="post-card"><a href="alric-review.php"><img src="/images/wuwa.jpg" alt="Wuthering Waves"><h4>From the Author — Why Pixel Grind Exists</h4></a></div>
                 <div class="post-card"><img src="/images/ml.jpg" alt="ML"> <h4>Clash of Clans: Best Base Layouts</h4></div>
-                <div class="post-card"><img src="/images/Screenshot (752).png" alt="Pokemon GO"><h4>Pokémon GO in 2025: Is It Still Worth Playing?</h4></div>
+                <div class="post-card"><img src="/images/pokemon go.png" alt="Pokemon GO"><h4>Pokémon GO in 2025: Is It Still Worth Playing?</h4></div>
             </div>
         </section>
 
@@ -103,7 +105,7 @@
         <section class="ui-analysis">
             <h2>UI Analysis</h2>
             <div class="analysis-grid">
-                <div class="analysis-card"><img src="/images/Screenshot (752).png" alt="UI"><h5>Best Inventory Systems</h5></div>
+                <div class="analysis-card"><img src="/images/pokemon go.png" alt="UI"><h5>Best Inventory Systems</h5></div>
                 <div class="analysis-card"><img src="/images/wuwa.jpg" alt="UI"><h5>Gacha UI: Clarity vs Flair</h5></div>
                 <div class="analysis-card"><img src="/images/ml.jpg" alt="UI"><h5>Ranking Systems Compared</h5></div>
             </div>
@@ -113,7 +115,7 @@
             <h2>Currently Grinding</h2>
             <div class="grind-list">
                 <div class="grind-item"><img src="/images/wuwa.jpg" alt="Wuwa"><div class="meta"><strong>Wuthering Waves</strong><small>120h played</small></div><div class="progress"><div style="width:68%"></div></div></div>
-                <div class="grind-item"><img src="/images/Screenshot (752).png" alt="Pokemon"><div class="meta"><strong>Pokémon GO</strong><small>80h played</small></div><div class="progress"><div style="width:55%"></div></div></div>
+                <div class="grind-item"><img src="/images/pokemon go.png" alt="Pokemon"><div class="meta"><strong>Pokémon GO</strong><small>80h played</small></div><div class="progress"><div style="width:55%"></div></div></div>
                 <div class="grind-item"><img src="/images/ml.jpg" alt="Clash"><div class="meta"><strong>Clash of Clans</strong><small>150h played</small></div><div class="progress"><div style="width:72%"></div></div></div>
             </div>
         </section>
@@ -155,11 +157,7 @@
             <h2>Game UI & Design Analysis</h2>
             <p>As someone studying Web Systems Technology, I look beyond gameplay. In Wuthering Waves the UI feels minimal and modern—clean spacing, soft animations, and good readability. Genshin leans into artistic immersion with layered menus and ornate icons. These are two design philosophies: usability vs immersion.</p>
         </section>
-
-        <section id="about" class="about">
-            <h2>About Me</h2>
-            <p>Hi, I’m <strong>Alric Sean Macalinao</strong>, a BSIT student specializing in Web Systems Technology. I play across genres—from MOBA to open-world RPGs—and I work in graphic design and editing. This blog combines gaming, design, and tech insights.</p>
-        </section>
+        
     </main>
 
     <footer class="footer">
@@ -168,5 +166,93 @@
             <div class="small">Design system: Neon blue #00D4FF • Violet #7C3AED</div>
         </div>
     </footer>
+    <button id="toTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+            const header = document.querySelector('.nav');
+            const headerHeight = header ? header.offsetHeight : 0;
+
+            // Smooth scroll for in-page anchors (with header offset)
+            document.querySelectorAll('a[href^="#"]').forEach(function(anchor){
+                anchor.addEventListener('click', function(e){
+                    const hash = this.getAttribute('href');
+                    if (!hash || hash === '#') return;
+                    const target = document.querySelector(hash);
+                    if (!target) return;
+
+                    e.preventDefault();
+                    const targetY = Math.max(0, target.getBoundingClientRect().top + window.pageYOffset - headerHeight - 12);
+                    window.scrollTo({ top: targetY, behavior: 'smooth' });
+
+                    // update URL without jumping
+                    try { history.pushState(null, '', hash); } catch(e) {}
+                });
+            });
+
+            // Drag-to-scroll for horizontal trending strip (mouse + touch)
+            (function(){
+                const strip = document.querySelector('.trending-strip');
+                if (!strip) return;
+
+                let isDown = false;
+                let startX;
+                let scrollLeft;
+
+                strip.addEventListener('mousedown', (e) => {
+                    isDown = true;
+                    strip.classList.add('grabbing');
+                    startX = e.pageX - strip.offsetLeft;
+                    scrollLeft = strip.scrollLeft;
+                    e.preventDefault();
+                });
+
+                strip.addEventListener('mouseleave', () => {
+                    isDown = false;
+                    strip.classList.remove('grabbing');
+                });
+
+                strip.addEventListener('mouseup', () => {
+                    isDown = false;
+                    strip.classList.remove('grabbing');
+                });
+
+                strip.addEventListener('mousemove', (e) => {
+                    if(!isDown) return;
+                    const x = e.pageX - strip.offsetLeft;
+                    const walk = (x - startX) * 1.5; // scroll-fast
+                    strip.scrollLeft = scrollLeft - walk;
+                });
+
+                // Touch support
+                strip.addEventListener('touchstart', (e) => {
+                    startX = e.touches[0].pageX - strip.offsetLeft;
+                    scrollLeft = strip.scrollLeft;
+                }, { passive: true });
+
+                strip.addEventListener('touchmove', (e) => {
+                    const x = e.touches[0].pageX - strip.offsetLeft;
+                    const walk = (x - startX) * 1.5;
+                    strip.scrollLeft = scrollLeft - walk;
+                }, { passive: true });
+            })();
+
+            // Back to top button
+            const toTop = document.getElementById('toTop');
+            toTop.addEventListener('click', function(){ window.scrollTo({ top: 0, behavior: 'smooth' }); });
+
+            function toggleToTop(){
+                if (window.pageYOffset > 320) toTop.classList.add('visible'); else toTop.classList.remove('visible');
+            }
+
+            window.addEventListener('scroll', toggleToTop, { passive: true });
+            toggleToTop();
+
+            const profileBtn = document.querySelector('.author-btn');
+            if (profileBtn && window.location.pathname.includes('/BLOG/alric-review.php')) {
+                profileBtn.classList.add('is-current');
+            }
+        });
+    </script>
 </body>
 </html>
